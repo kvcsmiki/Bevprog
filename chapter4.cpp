@@ -7,6 +7,9 @@ int main(){
 	double sum = 0;
 	string unit;
 	vector<double> metres;
+	const int cmToM = 0.01;
+	const double inchToM = 0.0254;
+	const double ftToM = 12*inchToM;
 	while(cin >> a >> unit){
 		cout << a << ' ';
 		if(a > largest){
@@ -23,11 +26,11 @@ int main(){
 			simple_error("use cm, m, in, or ft");
 		cout << a << unit << " = " ;
 		if(unit == "cm")
-			a /= 100;
+			a *= cmToM;
 		if(unit == "in")
-			a *= 0.0254;
+			a *= inchToM;
 		if(unit == "ft")
-			a *= 12*0.0254;
+			a *= ftToM;
 		cout << a << "m" << endl;
 		sum += a;
 		metres.push_back(a);
