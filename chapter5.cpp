@@ -6,7 +6,7 @@ int main()
 		cout << " Success!\n";
 		cout << " Success!\n";
 		cout << "success" << '\n';
-		int res = 7; vector<int> v(10); v[5] = res; cout << " Success!\n " ;
+		int res = 7; vector<int> v(10); v[5] = res; cout << " Success!\n ";
 		vector<int> v(10); v[5] = 7; if (v[5]==7) cout << " Success!\n " ;
 		if (true) cout << " Success!\n " ; else cout << " Fail!\n " ;
 		bool c = false; if (!c) cout << " Success!\n " ; else cout << " Fail!\n " ;
