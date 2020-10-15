@@ -1,8 +1,8 @@
 #include "std_lib_facilities.h"
 int main()
 	try {
-		/*c
-		out << " Success!\n " ;
+		/*
+		cout << " Success!\n";
 		cout << " Success!\n";
 		cout << " Success!\n";
 		cout << "success" << '\n';
@@ -13,7 +13,7 @@ int main()
 		string s = " ape " ; bool c = true; if (c) cout << " Success!\n " ;
 		string s = " ape " ; if (s== " ape " ) cout << " Success!\n " ;
 		string s = " ape " ; if (s!= " fool " ) cout << " Success!\n " ;
-		tring s = " ape " ; if (s!=" fool " ) cout << " Success!\n " ;
+		string s = " ape " ; if (s!=" fool " ) cout << " Success!\n " ;
 		vector<char> v(5); for (int i=0; i<v.size(); ++i) ; cout << " Success!\n " ;
 		vector<char> v(5); for (int i=0; i<v.size(); ++i) ; cout << " Success!\n " ;
 		string s = " Success!\n " ; for (int i=0; i<s.length(); ++i) cout << s[i];
